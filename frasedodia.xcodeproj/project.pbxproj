@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1FF221285BC93E00362A81 /* SalvarListar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FF220285BC93E00362A81 /* SalvarListar.swift */; };
+		5F33EA3D28579B98004CD5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33EA3C28579B98004CD5A3 /* AppDelegate.swift */; };
+		5F33EA3F28579B98004CD5A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33EA3E28579B98004CD5A3 /* SceneDelegate.swift */; };
+		5F33EA4128579B98004CD5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33EA4028579B98004CD5A3 /* ViewController.swift */; };
+		5F33EA4428579B98004CD5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F33EA4228579B98004CD5A3 /* Main.storyboard */; };
+		5F33EA4628579B9A004CD5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F33EA4528579B9A004CD5A3 /* Assets.xcassets */; };
+		5F33EA4928579B9A004CD5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F33EA4728579B9A004CD5A3 /* LaunchScreen.storyboard */; };
+		5F33EA512857CA14004CD5A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F33EA502857CA14004CD5A3 /* GoogleService-Info.plist */; };
+		5F7881F92858088900F6752A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7881F82858088900F6752A /* Message.swift */; };
+		5F7881FC28581A3D00F6752A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7881FB28581A3C00F6752A /* TableViewController.swift */; };
+		5FFF78A12860EACA00463EBF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFF789F2860EACA00463EBF /* MessageCell.swift */; };
+		5FFF78A22860EACA00463EBF /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FFF78A02860EACA00463EBF /* MessageCell.xib */; };
+		62B0DB8DC2E5053026D016F3 /* Pods_frasedodia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0F40967EE7A5BC54F0BD7D /* Pods_frasedodia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0F40967EE7A5BC54F0BD7D /* Pods_frasedodia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frasedodia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		337299D76B8328F8AEE6F196 /* Pods-frasedodia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frasedodia.debug.xcconfig"; path = "Target Support Files/Pods-frasedodia/Pods-frasedodia.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1FF220285BC93E00362A81 /* SalvarListar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvarListar.swift; sourceTree = "<group>"; };
+		5F33EA3928579B98004CD5A3 /* frasedodia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frasedodia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F33EA3C28579B98004CD5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F33EA3E28579B98004CD5A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F33EA4028579B98004CD5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F33EA4328579B98004CD5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F33EA4528579B9A004CD5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F33EA4828579B9A004CD5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F33EA4A28579B9A004CD5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F33EA502857CA14004CD5A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F33EA522857CE5C004CD5A3 /* frasedodia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = frasedodia.entitlements; sourceTree = "<group>"; };
+		5F7881F82858088900F6752A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5F7881FB28581A3C00F6752A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5FFF789F2860EACA00463EBF /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		5FFF78A02860EACA00463EBF /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		DD12833F5AFBF3CFB1B0A964 /* Pods-frasedodia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frasedodia.release.xcconfig"; path = "Target Support Files/Pods-frasedodia/Pods-frasedodia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F33EA3628579B98004CD5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B0DB8DC2E5053026D016F3 /* Pods_frasedodia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F33EA3028579B98004CD5A3 = {
+			isa = PBXGroup;
+			children = (
+				5F33EA3B28579B98004CD5A3 /* frasedodia */,
+				5F33EA3A28579B98004CD5A3 /* Products */,
+				ADB3875653629FB2B438C72E /* Pods */,
+				EEBCB10A3CFFFF09E28DD94A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F33EA3A28579B98004CD5A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F33EA3928579B98004CD5A3 /* frasedodia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F33EA3B28579B98004CD5A3 /* frasedodia */ = {
+			isa = PBXGroup;
+			children = (
+				5F33EA522857CE5C004CD5A3 /* frasedodia.entitlements */,
+				5F33EA3C28579B98004CD5A3 /* AppDelegate.swift */,
+				5F33EA3E28579B98004CD5A3 /* SceneDelegate.swift */,
+				5F7881FA2858089300F6752A /* Model */,
+				5F7881F62858082500F6752A /* View */,
+				5F7881F72858084A00F6752A /* Controller */,
+				5F33EA4728579B9A004CD5A3 /* LaunchScreen.storyboard */,
+				5F33EA4A28579B9A004CD5A3 /* Info.plist */,
+				5F33EA4528579B9A004CD5A3 /* Assets.xcassets */,
+				5F33EA502857CA14004CD5A3 /* GoogleService-Info.plist */,
+			);
+			path = frasedodia;
+			sourceTree = "<group>";
+		};
+		5F7881F62858082500F6752A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F33EA4228579B98004CD5A3 /* Main.storyboard */,
+				5FFF789F2860EACA00463EBF /* MessageCell.swift */,
+				5FFF78A02860EACA00463EBF /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F7881F72858084A00F6752A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F33EA4028579B98004CD5A3 /* ViewController.swift */,
+				5F7881FB28581A3C00F6752A /* TableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F7881FA2858089300F6752A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F7881F82858088900F6752A /* Message.swift */,
+				5F1FF220285BC93E00362A81 /* SalvarListar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADB3875653629FB2B438C72E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337299D76B8328F8AEE6F196 /* Pods-frasedodia.debug.xcconfig */,
+				DD12833F5AFBF3CFB1B0A964 /* Pods-frasedodia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEBCB10A3CFFFF09E28DD94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0F40967EE7A5BC54F0BD7D /* Pods_frasedodia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F33EA3828579B98004CD5A3 /* frasedodia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F33EA4D28579B9A004CD5A3 /* Build configuration list for PBXNativeTarget "frasedodia" */;
+			buildPhases = (
+				DBD3120A127B6C7BD240126E /* [CP] Check Pods Manifest.lock */,
+				5F33EA3528579B98004CD5A3 /* Sources */,
+				5F33EA3628579B98004CD5A3 /* Frameworks */,
+				5F33EA3728579B98004CD5A3 /* Resources */,
+				859A16E1E71FB29EA694DBE1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frasedodia;
+			productName = frasedodia;
+			productReference = 5F33EA3928579B98004CD5A3 /* frasedodia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F33EA3128579B98004CD5A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5F33EA3828579B98004CD5A3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F33EA3428579B98004CD5A3 /* Build configuration list for PBXProject "frasedodia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F33EA3028579B98004CD5A3;
+			productRefGroup = 5F33EA3A28579B98004CD5A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F33EA3828579B98004CD5A3 /* frasedodia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F33EA3728579B98004CD5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFF78A22860EACA00463EBF /* MessageCell.xib in Resources */,
+				5F33EA4928579B9A004CD5A3 /* LaunchScreen.storyboard in Resources */,
+				5F33EA512857CA14004CD5A3 /* GoogleService-Info.plist in Resources */,
+				5F33EA4628579B9A004CD5A3 /* Assets.xcassets in Resources */,
+				5F33EA4428579B98004CD5A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		859A16E1E71FB29EA694DBE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-frasedodia/Pods-frasedodia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-frasedodia/Pods-frasedodia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-frasedodia/Pods-frasedodia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD3120A127B6C7BD240126E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-frasedodia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F33EA3528579B98004CD5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F33EA4128579B98004CD5A3 /* ViewController.swift in Sources */,
+				5F7881F92858088900F6752A /* Message.swift in Sources */,
+				5F33EA3D28579B98004CD5A3 /* AppDelegate.swift in Sources */,
+				5F1FF221285BC93E00362A81 /* SalvarListar.swift in Sources */,
+				5F7881FC28581A3D00F6752A /* TableViewController.swift in Sources */,
+				5F33EA3F28579B98004CD5A3 /* SceneDelegate.swift in Sources */,
+				5FFF78A12860EACA00463EBF /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F33EA4228579B98004CD5A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F33EA4328579B98004CD5A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F33EA4728579B9A004CD5A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F33EA4828579B9A004CD5A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F33EA4B28579B9A004CD5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F33EA4C28579B9A004CD5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F33EA4E28579B9A004CD5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337299D76B8328F8AEE6F196 /* Pods-frasedodia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = frasedodia/frasedodia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = frasedodia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaobarros.frasedodia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F33EA4F28579B9A004CD5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD12833F5AFBF3CFB1B0A964 /* Pods-frasedodia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = frasedodia/frasedodia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = frasedodia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joaobarros.frasedodia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F33EA3428579B98004CD5A3 /* Build configuration list for PBXProject "frasedodia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33EA4B28579B9A004CD5A3 /* Debug */,
+				5F33EA4C28579B9A004CD5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F33EA4D28579B9A004CD5A3 /* Build configuration list for PBXNativeTarget "frasedodia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F33EA4E28579B9A004CD5A3 /* Debug */,
+				5F33EA4F28579B9A004CD5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F33EA3128579B98004CD5A3 /* Project object */;
+}

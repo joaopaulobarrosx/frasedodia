@@ -1,0 +1,6 @@
+framework module Pods_frasedodia {
+  umbrella header "Pods-frasedodia-umbrella.h"
+
+  export *
+  module * { export * }
+}
