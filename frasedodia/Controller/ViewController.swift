@@ -45,6 +45,7 @@ class ViewController: UIViewController {
                             
                             salve.salvar(dado: newMessageString) //Colocar um IF para salvar só quando receber uma nova notificação
                             
+                            _ = "joao"
                             
                             DispatchQueue.main.async {
                                 self.frase.text = self.messages[1].mensagem
