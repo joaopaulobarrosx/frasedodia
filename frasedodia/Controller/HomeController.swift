@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  HomeController.swift
 //  frasedodia
 //
-//  Created by Joao Barros on 13/06/22.
+//  Created by Joao Barros on 02/07/22.
 //
 
 import UIKit
@@ -10,13 +10,15 @@ import FirebaseCore
 import FirebaseMessaging
 import FirebaseFirestore
 
-class ViewController: UIViewController {
+class HomeController: UIViewController {
     
     let db = Firestore.firestore()
     var messages: [Message] = []
 
-    @IBOutlet weak var frase: UILabel!
     @IBOutlet weak var autorFrase: UILabel!
+    @IBOutlet weak var frase: UILabel!
+    //    @IBOutlet weak var frase: UILabel!
+//    @IBOutlet weak var autorFrase: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +47,6 @@ class ViewController: UIViewController {
                             
                             salve.salvar(dado: newMessageString) //Colocar um IF para salvar só quando receber uma nova notificação
                             
-                            _ = "joao"
                             
                             DispatchQueue.main.async {
                                 self.frase.text = self.messages[1].mensagem

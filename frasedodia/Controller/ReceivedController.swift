@@ -1,16 +1,15 @@
 //
-//  TableViewController.swift
+//  ReceivedController.swift
 //  frasedodia
 //
-//  Created by Joao Barros on 13/06/22.
+//  Created by Joao Barros on 02/07/22.
 //
 
 import UIKit
 
-class TableViewController: UIViewController {
-    
+class ReceivedController: UIViewController {
+
     @IBOutlet weak var tableView: UITableView!
-    
     var mensagens: [String] = []
 
     override func viewDidLoad() {
@@ -35,7 +34,7 @@ class TableViewController: UIViewController {
     }*/
 
     // MARK: - Table view data source
-extension TableViewController: UITableViewDataSource {
+extension ReceivedController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -57,3 +56,4 @@ extension TableViewController: UITableViewDataSource {
     }
     
 }
+
